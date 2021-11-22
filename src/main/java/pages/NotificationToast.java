@@ -14,8 +14,7 @@ public class NotificationToast {
     }
 
     public NotificationToast checkRePlanNotification() {
-//        $("[data-test-id='success-notification']").shouldBe(Condition.visible);
-        $("[data-test-id='success-notification']").shouldNotBe(Condition.enabled);
+        $("[data-test-id='success-notification']").shouldBe(Condition.visible);
         return this;
     }
 }
